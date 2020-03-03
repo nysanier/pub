@@ -1,6 +1,6 @@
 set -e
 
-mkdir cbuild
+mkdir -p cbuild
 cd cbuild
 cmake ..
 make
